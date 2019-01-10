@@ -28,5 +28,7 @@ if (process.env.NODE_ENV !== `production`) {
 }
 
 export default typography
+
+// See https://github.com/KyleAMathews/typography.js/blob/master/docs/what.md for explanations on rhythm and scale
 export const rhythm = typography.rhythm
 export const scale = typography.scale
