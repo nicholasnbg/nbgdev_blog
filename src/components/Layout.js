@@ -32,23 +32,42 @@ class Layout extends React.Component {
       )
     } else {
       header = (
-        <h3
-          style={{
-            fontFamily: `Montserrat, sans-serif`,
-            marginTop: 0,
-          }}
-        >
-          <Link
+        <React.Fragment>
+          <h3
             style={{
-              boxShadow: `none`,
-              textDecoration: `none`,
-              color: `inherit`,
+              fontFamily: `Montserrat, sans-serif`,
+              marginTop: 0,
             }}
-            to={`/`}
           >
-            {title}
-          </Link>
-        </h3>
+            <Link
+              style={{
+                boxShadow: `none`,
+                textDecoration: `none`,
+                color: `inherit`,
+              }}
+              to={`/`}
+            >
+              {title}
+            </Link>
+          </h3>
+          <h6
+            style={{
+              fontFamily: `Montserrat, sans-serif`,
+              marginTop: 0,
+            }}
+          >
+            <Link
+              style={{
+                boxShadow: `none`,
+                textDecoration: `none`,
+                color: `inherit`,
+              }}
+              to={`/about`}
+            >
+              {`About`}
+            </Link>
+          </h6>
+        </React.Fragment>
       )
     }
     return (
