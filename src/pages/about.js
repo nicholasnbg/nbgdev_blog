@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import { Link, graphql } from 'gatsby'
+import SEO from '../components/seo'
+
 
 import Layout from '../components/Layout'
 
@@ -10,6 +12,10 @@ class About extends Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
+        <SEO
+          title="About Me"
+          keywords={[`blog`, `gatsby`, `javascript`, `react`]}
+        />
         About page
       </Layout>
     )
