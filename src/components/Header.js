@@ -40,7 +40,7 @@ export default Header
 
 const HeaderWrapper = styled.div`
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   padding: 15px 0 0 50px;
   position: fixed;
   width: 100%;
