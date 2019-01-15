@@ -14,6 +14,7 @@ oceanBeachTheme.overrideThemeStyles = () => {
   return {
     'a': {
       backgroundImage: `none`,
+      color: `rgb(102, 51, 153)`
     },
   }
 }
