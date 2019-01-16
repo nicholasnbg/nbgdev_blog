@@ -10,7 +10,7 @@ class Header extends Component {
     const { location: { pathname }, title } = this.props
 
     // to be used to map links into header
-    const links = ['about']
+    const links = ['about', 'blog', 'work']
 
     const navLinks = (
       links.map(link => (
@@ -47,18 +47,34 @@ const HeaderWrapper = styled.div`
   background: rgba(255,255,255,0.7);
   top: 0;
   left: 0;
+
+  @media (max-width: 800px) {
+    justify-content: center;
+  }
+  @media (max-width: 400px) {
+    padding: 15px 0 0 20px;
+  }
+  
 `
 
 const Logo = styled.h2`
   font-family: Montserrat, sans-serif;
   margin-top: 0;
   margin-right: 35px;
+  @media (max-width: 400px) {
+  margin-right: 20px;
+
+  }
 `
 
 const NavLink = styled.h4`
   font-family: Montserrat, sans-serif;
   margin-top: 0;
   margin-right: 20px;
+  @media (max-width: 400px) {
+    margin-right: 10px;
+  }
+  
 `
 
 const HeaderLink = styled(Link)`
