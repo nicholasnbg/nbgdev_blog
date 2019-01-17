@@ -1,5 +1,6 @@
 import Typography from 'typography'
 import oceanBeachTheme from 'typography-theme-ocean-beach'
+import colors from './colors'
 
 // Example of how to override theme styles
 // Wordpress2016.overrideThemeStyles = () => {
@@ -14,7 +15,7 @@ oceanBeachTheme.overrideThemeStyles = () => {
   return {
     'a': {
       backgroundImage: `none`,
-      color: `rgb(102, 51, 153)`
+      color: `${colors.primary}`
     },
   }
 }
