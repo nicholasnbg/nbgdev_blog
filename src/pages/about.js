@@ -20,9 +20,9 @@ class About extends Component {
         />
         <h1>Hi, I'm Nick</h1>
         <h2>The Short...</h2>
-        <p>I'm a software engineer at {`{...insert awesome company here}`}.</p>
+        <p>I'm a software engineer at REA Group.</p>
         <p>I'm a self taught full stack developer, based in Melbourne, Australia.</p>
-        <p>I love all things programming, but have a passion for full stack Javscript (Node + React), as well as Ruby + Rails </p>
+        <p>I love all things programming, but have a passion for full stack Javscript (Node + React), as well as Ruby + Rails. I'm working with a lot of Scala and functional programming in my current role.</p>
 
         <h2>Nick the... <em>Developer</em></h2>
         <p>dafdgaa</p>
